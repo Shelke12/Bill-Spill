@@ -4,11 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bill_Spill</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inconsolata:wght@200;300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="main">
+        <p>BILL SPILL</p>
+        <div class="container">
+            <div class="container1">
 
+                <div class="form">
+                    <p>Bill</p>
+                    <div class="input_feild">
+                        <input placeholder="₹" type="number" name="input" id="input_f">
+                    </div>
+                </div>
+                <div class="discounts">
+                    <p>Select Tip % <span id="amount">0</span></p>
+                    <button onclick="tipPercent(0.05)"> 5%</button>
+                    <button onclick="tipPercent(0.10)">10%</button>
+                    <button onclick="tipPercent(0.15)">15%</button>
+                    <button onclick="tipPercent(0.25)">25%</button>
+                    <button onclick="tipPercent(0.50)">50%</button>
+                    <button onclick="tipPercent(0.75)">75%</button>
+                </div>
+                <div class="people">
+                    <p>Number of People</p>
+                    <input type="number" id="people" placeholder="0">
+                </div>
+                <div class="btn">
+                    <button id="generate" onclick="totalMoney(0)">Generate Bill</button>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="tip">
+                    <div>
+                        <p>Tip Amount</p>
+                        <p class="person">/ person</p>
+                    </div>
+                    <p id="tipAmount">₹ 0.00</p>
+                </div>
+                <div class="total">
+                    <div>
+                        <p>Total</p>
+                        <p class="person">/ person</p>
+                    </div>
+
+                    <p id="totalAmount">₹ 0.00</p>
+                </div>
+                <div class="btn2">
+                    <button onclick="clearEverything()">RESET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
