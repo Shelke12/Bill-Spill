@@ -1,152 +1,169 @@
-* {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-
-/*
+        * {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        /*
 font-family: 'DM Sans', sans-serif;
 font-family: 'Inconsolata', monospace;
 
 */
-
-.main {
-    background-color: rgba(182, 172, 195, 0.53);
-    display: flex;
-    padding-bottom: 60px;
-    flex-direction: column;
-    text-align: center;
-}
-
-.main>p {
-    margin: 90px 10px 50px 10px;
-    font-family: 'DM Sans';
-    letter-spacing: 5px;
-    color: rgb(67, 10, 143);
-}
-
-.container {
-    display: flex;
-    width: 818px;
-    gap: 30px;
-    height: 494px;
-    align-items: center;
-    align-self: center;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 25px;
-    padding-inline: 40px;
-}
-
-.container p {
-    font-family: 'Inconsolata';
-    color: rgba(156, 96, 255, 1);
-    letter-spacing: 2px;
-    font-weight: 700;
-    margin-bottom: 8px;
-}
-
-.container1 {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    gap: 20px;
-    width: 337px;
-    height: 390px;
-    background-color: white;
-}
-
-.container1 input {
-    height: 43px;
-    width: 332px;
-    font-size: 21px;
-    border: none;
-    padding-left: 5px;
-    outline: none;
-    border-radius: 3px;
-    background-color: rgba(182, 172, 195, 0.53);
-}
-
-.container1 p {
-    font-family: Inconsolata;
-    font-size: 15px;
-}
-
-.discounts button {
-    width: 106px;
-    height: 44px;
-    background-color: rgba(156, 96, 255, 1);
-    font-family: 'monospace';
-    border-radius: 4px;
-    border: none;
-    color: rgba(233, 219, 255, 1);
-    font-size: 21px;
-    outline: none;
-    margin: 5px 3px 5px 0px;
-}
-
-#amount {
-    border: 1px solid rgb(141, 104, 240);
-    padding: 5px 20px;
-    border-radius: 5px;
-}
-
-.btn button {
-    padding: 10px;
-    width: 332px;
-    border: none;
-    outline: none;
-    font-family: Inconsolata;
-    font-size: 19px;
-    font-weight: 800;
-    letter-spacing: 1.5px;
-    border-radius: 3px;
-    background-color: rgba(251, 250, 251, 1);
-    color: rgba(143, 143, 143, 1);
-    box-shadow: 1px 1px 7px -1px;
-}
-
-.container2 {
-    display: flex;
-    text-align: start;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 370px;
-    border-radius: 11px;
-    width: 367px;
-    background-color: rgba(156, 96, 255, 1);
-    font-family: Inconsolata;
-}
-
-.container2 p {
-    font-family: Inconsolata;
-    font-size: 16px;
-    margin-left: 35px;
-    font-weight: 500;
-    color: rgba(243, 228, 255, 1);
-}
-
-.btn2 button {
-    background-color: rgba(195, 159, 255, 1);
-    width: 295px;
-    height: 43px;
-    margin-left: 35px;
-    border: none;
-    outline: none;
-    color: #9C60FF;
-    font-weight: 600;
-    border-radius: 5px;
-}
-
-.tip,
-.total {
-    display: flex;
-}
-
-#tipAmount,
-#totalAmount {
-    font-size: 30px;
-    font-weight: 500;
-    font-family: 'monospace';
-}
+        
+        .main {
+            background-color: rgba(182, 172, 195, 0.53);
+            display: flex;
+            padding-bottom: 60px;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .main>p {
+            margin: 90px 10px 50px 10px;
+            font-family: 'DM Sans';
+            letter-spacing: 5px;
+            color: rgb(67, 10, 143);
+        }
+        
+        .container {
+            display: flex;
+            width: 818px;
+            gap: 30px;
+            height: 494px;
+            align-items: center;
+            align-self: center;
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 25px;
+            padding-inline: 40px;
+        }
+        
+        .container p {
+            font-family: 'Inconsolata';
+            color: rgba(156, 96, 255, 1);
+            letter-spacing: 2px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .container1 {
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+            gap: 20px;
+            width: 337px;
+            height: 390px;
+            background-color: white;
+        }
+        
+        .container1 input {
+            height: 43px;
+            width: 332px;
+            font-size: 21px;
+            border: none;
+            padding-left: 5px;
+            outline: none;
+            border-radius: 3px;
+            background-color: rgba(182, 172, 195, 0.53);
+        }
+        
+        .container1 p {
+            font-family: Inconsolata;
+            font-size: 15px;
+        }
+        
+        .discounts button {
+            width: 106px;
+            height: 44px;
+            background-color: rgba(156, 96, 255, 1);
+            font-family: 'monospace';
+            border-radius: 4px;
+            border: none;
+            color: rgba(233, 219, 255, 1);
+            font-size: 21px;
+            outline: none;
+            margin: 5px 3px 5px 0px;
+        }
+        
+        #amount {
+            border: 1px solid rgb(141, 104, 240);
+            padding: 5px 20px;
+            border-radius: 5px;
+        }
+        
+        .btn button {
+            padding: 10px;
+            width: 332px;
+            border: none;
+            outline: none;
+            font-family: Inconsolata;
+            font-size: 19px;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            border-radius: 3px;
+            background-color: rgba(251, 250, 251, 1);
+            color: rgba(143, 143, 143, 1);
+            box-shadow: 1px 1px 7px -1px;
+        }
+        
+        .container2 {
+            display: flex;
+            text-align: start;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 370px;
+            border-radius: 11px;
+            width: 367px;
+            background-color: rgba(156, 96, 255, 1);
+            font-family: Inconsolata;
+        }
+        
+        .container2 p {
+            font-family: Inconsolata;
+            font-size: 16px;
+            margin-left: 35px;
+            font-weight: 500;
+            color: rgba(243, 228, 255, 1);
+        }
+        
+        .btn2 button {
+            background-color: rgba(195, 159, 255, 1);
+            width: 295px;
+            height: 43px;
+            margin-left: 35px;
+            border: none;
+            outline: none;
+            color: #9C60FF;
+            font-weight: 600;
+            border-radius: 5px;
+        }
+        
+        .tip,
+        .total {
+            display: flex;
+        }
+        
+        #tipAmount,
+        #totalAmount {
+            font-size: 30px;
+            font-weight: 500;
+            font-family: 'monospace';
+        }
+        
+        @media screen and (max-width: 800px) {
+            .container {
+                width: 100%;
+                display: flex;
+                gap: 6rem;
+                height: 100%;
+                flex-direction: column;
+            }
+            .container1 {
+                padding: 2rem;
+            }
+            .container2 {
+                display: flex;
+                flex-direction: column;
+                gap: 5rem;
+                padding: 1rem;
+            }
+        }
